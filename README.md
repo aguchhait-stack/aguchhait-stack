@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm Arijit Guchhait</h1>
-<h3 align="center">Data Analyst with Manufacturing Background. Will Pursue MS in Data Science at NJIT from Fall 2025.</h3>
+<h3 align="center">Data Analyst with Manufacturing Background. </h3>
 
 - 🌱 I’m currently learning **Machine Learning and and its applications in Medical Device industry**
 
