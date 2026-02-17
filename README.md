@@ -1,40 +1,34 @@
-<h1 align="center">Hi 👋, I'm Arijit Guchhait</h1>
-<h3 align="center">Analytics Engineer / Data Analyst | SQL • Snowflake • Python • BI</h3>
+# Arijit Guchhait
+**Analytics Engineer | MSc Data Science @ University of Leicester**
 
-<p align="center">
-Data professional with 5+ years of experience in SQL-based analytics and analytics engineering across healthcare and manufacturing domains. 
-Experienced in building analytics-ready datasets, automating data workflows, and delivering BI-ready insights at enterprise scale.
-</p>
-
----
-
-### 🔹 What I work with
-- **SQL & Analytics:** SQL Server, PostgreSQL, analytical queries, window functions  
-- **Cloud & Warehousing:** Snowflake (Snowpipe, Streams, Tasks, ELT patterns)  
-- **Programming:** Python (Pandas, automation, data validation)  
-- **BI & Reporting:** Power BI, Tableau  
-- **Data Concepts:** SCD Type-2, effective-dated logic, layered data models  
+[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://aguchhait-stack.github.io/aguchhait-stack/) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guchhaitarijit/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/ariguchhait/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ari.guchhait@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-25D366?style=flat-square&logo=whatsapp&logoColor=white)](tel:+447404591725)
 
 ---
 
-### 🎓 Education
-- **MSc in Data Science** — *University of Leicester, United Kingdom*  
-  *(Currently pursuing)*
+### 🛠️ Technical Stack
+
+**Cloud & Analytics Engineering**
+* Snowflake (Snowpipe, Streams, Tasks) • SQL Server • PostgreSQL 
+* Data Modeling: SCD Type-2 • Medallion Architecture (Bronze/Silver/Gold)
+
+**Data Science & Stats**
+* Python (Pandas, Scikit-learn) • R (Tidyverse, Quarto)
+* Hypothesis Testing (T-tests, ANOVA) • Linear Regression
+
+**BI & Visualization**
+* Power BI • Tableau • Excel (XLOOKUP, Power Query)
 
 ---
 
-### 🔗 Connect with me
-<p align="left">
-<a href="https://www.linkedin.com/in/guchhaitarijit/" target="_blank">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" width="30"/>
-</a>
-<a href="https://www.leetcode.com/ariguchhait" target="_blank">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="30"/>
-</a>
-</p>
+### 🚀 Key Project
+**[UK Road Collision Analysis](https://github.com/aguchhait-stack/UK_road_safety)**
+Statistical analysis of 100k+ records using Python and R to quantify environmental predictors of accident severity.
 
 ---
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=aguchhait-stack&layout=compact"/>
-</p>
+### 🪂 Beyond the Data
+When I'm not building pipelines, you'll find me traveling or **skydiving** from 15,000 feet.
