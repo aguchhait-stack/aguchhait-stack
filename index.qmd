@@ -1,0 +1,73 @@
+---
+title: "Arijit Guchhait"
+subtitle: "Data Analyst | MSc Data Science Student @ University of Leicester"
+image: "profile.jpg"
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: true
+    toc-location: left
+    page-layout: full
+---
+
+::: {.column-page}
+
+![](profile.jpg){width="8em" fig-alt="Arijit Guchhait" class="round-image"}
+
+[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guchhaitarijit/)
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aguchhait-stack)
+[![](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ari.guchhait@gmail.com)
+[![](https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+447404591725)
+
+:::
+
+---
+
+## Professional Profile
+
+Data professional with **5+ years of experience** in SQL-based analytics and engineering across healthcare and manufacturing (Abbott/J&J). I specialize in building analytics-ready datasets, automating workflows, and delivering BI-ready insights at enterprise scale.
+
+---
+
+## Technical Expertise
+
+### Cloud, SQL & Analytics Engineering
+- **SQL & Warehousing**: Snowflake (Snowpipe, Streams, Tasks), PostgreSQL, SQL Server
+- **Data Modeling**: SCD Type-2, Stored Procedures, Layered Data Architectures (Bronze/Silver/Gold)
+
+### Data Science & Statistical Computing
+- **Python Stack**: Pandas, Scikit-learn, Seaborn (Automation, Data Validation, ML)
+- **R Stack**: Tidyverse (Dplyr, Ggplot2), Quarto, Markdown
+- **Statistics**: Hypothesis Testing (T-tests, ANOVA), Linear Regression, Probability & Distribution Analysis
+
+### BI & Visualization
+- **Tools**: Power BI, Tableau, Excel (Advanced/VBA)
+
+---
+
+## Featured Projects
+
+### UK Road Collision Analysis
+[*GitHub*](https://github.com/aguchhait-stack/UK_road_safety) | [*PDF Report*](https://github.com/aguchhait-stack/UK_road_safety/raw/main/outputs/Collision.pdf)
+
+A comprehensive statistical analysis of over 100,000 road collision records to identify key environmental factors influencing accident severity.
+
+- **Impact**: Quantified predictive relationships between weather conditions, road types, and collision outcomes
+- **Engineering**: Designed scalable data models transforming raw records into analysis-ready research subsets
+- **Analysis**: Applied hypothesis testing (t-tests, ANOVA) and regression modeling to validate safety variables
+
+---
+
+## Industry Track Record
+
+- **Enterprise ELT**: Designed, implemented, and maintained robust data pipelines within highly regulated healthcare environments, ensuring data integrity and compliance
+- **Systems Strategy**: Proven expertise in structuring raw data into optimized layers (e.g., Bronze/Silver/Gold) to power downstream BI, reporting, and machine learning applications
+
+---
+
+## Interests
+
+Beyond data, I'm passionate about **traveling** and **skydiving** — seeking new perspectives both on the ground and from 15,000 feet.
