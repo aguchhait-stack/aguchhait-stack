@@ -54,7 +54,7 @@ Data Analyst with 5+ years of experience building the backbone of enterprise dat
 ### UK Road Collision Analysis
 [*GitHub*](https://github.com/aguchhait-stack/UK_road_safety) | [*PDF Report*](https://github.com/aguchhait-stack/UK_road_safety/raw/main/outputs/Collision.pdf)
 
-A comprehensive statistical analysis of over 100,000 road collision records to identify key environmental factors influencing accident severity.
+A comprehensive statistical analysis of over 50,000 road collision records to identify key environmental factors influencing accident severity.
 
 - **Predictive Modeling of Collision Severity:** Developed a Random Forest classifier achieving 74% accuracy. The model identifies relationships between Hour, Day of Week, and Speed to distinguish high-volume "Slight" incidents from high-severity crashes.
 - **Hypothesis Testing & Statistical Validation:** Validated situational factors by rejecting the Null Hypothesis (H₀) with p<0.05. Confirmed that variables like Speed are statistically significant predictors of Collision Severity.
