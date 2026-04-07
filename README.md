@@ -1,34 +1,46 @@
 # Arijit Guchhait
-**Analytics Engineer | MSc Data Science @ University of Leicester**
+**Data Analyst | SQL • Python • Data Engineering | MSc Data Science**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://aguchhait-stack.github.io/aguchhait-stack/) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guchhaitarijit/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/ariguchhait/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ari.guchhait@gmail.com)
-[![Phone](https://img.shields.io/badge/Phone-25D366?style=flat-square&logo=whatsapp&logoColor=white)](tel:+447404591725)
 
 ---
 
 ### 🛠️ Technical Stack
 
-**Cloud & Analytics Engineering**
-* Snowflake (Snowpipe, Streams, Tasks) • SQL Server • PostgreSQL 
-* Data Modeling: SCD Type-2 • Medallion Architecture (Bronze/Silver/Gold)
+**Cloud, SQL & Data Engineering**
+- Snowflake (Snowpark, Dynamic Tables) • PostgreSQL  
+- ETL/ELT Pipelines • Data Transformation  
+- Data Modeling: SCD Type-2 • Stored Procedures  
 
-**Data Science & Stats**
-* Python (Pandas, Scikit-learn) • R (Tidyverse, Quarto)
-* Hypothesis Testing (T-tests, ANOVA) • Linear Regression
+**Data Analysis & Statistics**
+- Python (Pandas, NumPy, Seaborn, SciPy) • R (dplyr, ggplot2, Quarto)  
+- EDA • Hypothesis Testing (T-test, ANOVA)  
 
-**BI & Visualization**
-* Power BI • Tableau • Excel (XLOOKUP, Power Query)
+**Machine Learning**
+- Random Forest (Classification) • Linear Regression  
+
+**BI & Tools**
+- Power BI • Tableau  
+- Excel (XLOOKUP, Power Query) • GitHub  
 
 ---
 
-### 🚀 Key Project
-**[UK Road Collision Analysis](https://github.com/aguchhait-stack/UK_road_safety)**
-Statistical analysis of 100k+ records using Python and R to quantify environmental predictors of accident severity.
+### 🚀 Featured Projects
+
+**[UK Road Collision Analysis](https://github.com/aguchhait-stack/UK_road_safety)**  
+Statistical analysis of 50k+ records using Python & R to identify key drivers of accident severity.
+
+**[Breast Cancer Trend Analysis (Australia)](https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-)**  
+Functional Data Analysis of long-term mortality trends using statistical modeling and smoothing techniques.
+
+---
+
+### 🎯 Currently Looking For
+- Summer 2026 Internship (Data Analyst / Data Science)  
+- Full-time roles from January 2027  
 
 ---
 
 ### 🪂 Beyond the Data
-When I'm not building pipelines, you'll find me traveling or **skydiving** from 15,000 feet.
+When I'm not working with data, you'll find me traveling or **skydiving** from 15,000 feet.

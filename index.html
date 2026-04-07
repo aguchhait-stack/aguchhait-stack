@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Arijit Guchhait</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -26,16 +29,44 @@ ul.task-list li input[type="checkbox"] {
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
 <script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
 <script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="index_files/libs/quarto-html/popper.min.js"></script>
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="index_files/libs/quarto-html/anchor.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="index_files/libs/bootstrap/bootstrap-a74871fe4945b66d259aafc266475145.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/bootstrap/bootstrap-8ffd5f67044e5306d9846f29df41dda5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -51,13 +82,15 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#professional-profile" id="toc-professional-profile" class="nav-link active" data-scroll-target="#professional-profile">Professional Profile</a></li>
   <li><a href="#technical-expertise" id="toc-technical-expertise" class="nav-link" data-scroll-target="#technical-expertise">Technical Expertise</a>
   <ul class="collapse">
-  <li><a href="#cloud-sql-analytics-engineering" id="toc-cloud-sql-analytics-engineering" class="nav-link" data-scroll-target="#cloud-sql-analytics-engineering">Cloud, SQL &amp; Analytics Engineering</a></li>
-  <li><a href="#data-science-statistical-computing" id="toc-data-science-statistical-computing" class="nav-link" data-scroll-target="#data-science-statistical-computing">Data Science &amp; Statistical Computing</a></li>
-  <li><a href="#bi-visualization" id="toc-bi-visualization" class="nav-link" data-scroll-target="#bi-visualization">BI &amp; Visualization</a></li>
+  <li><a href="#cloud-sql-data-engineering" id="toc-cloud-sql-data-engineering" class="nav-link" data-scroll-target="#cloud-sql-data-engineering">Cloud, SQL &amp; Data Engineering</a></li>
+  <li><a href="#data-analysis-statistics" id="toc-data-analysis-statistics" class="nav-link" data-scroll-target="#data-analysis-statistics">Data Analysis &amp; Statistics</a></li>
+  <li><a href="#machine-learning" id="toc-machine-learning" class="nav-link" data-scroll-target="#machine-learning">Machine Learning</a></li>
+  <li><a href="#bi-tools" id="toc-bi-tools" class="nav-link" data-scroll-target="#bi-tools">BI &amp; Tools</a></li>
   </ul></li>
   <li><a href="#featured-projects" id="toc-featured-projects" class="nav-link" data-scroll-target="#featured-projects">Featured Projects</a>
   <ul class="collapse">
   <li><a href="#uk-road-collision-analysis" id="toc-uk-road-collision-analysis" class="nav-link" data-scroll-target="#uk-road-collision-analysis">UK Road Collision Analysis</a></li>
+  <li><a href="#breast-cancer-trend-analysis-australia" id="toc-breast-cancer-trend-analysis-australia" class="nav-link" data-scroll-target="#breast-cancer-trend-analysis-australia">Breast Cancer Trend Analysis (Australia)</a></li>
   </ul></li>
   <li><a href="#industry-track-record" id="toc-industry-track-record" class="nav-link" data-scroll-target="#industry-track-record">Industry Track Record</a></li>
   <li><a href="#interests" id="toc-interests" class="nav-link" data-scroll-target="#interests">Interests</a></li>
@@ -71,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Arijit Guchhait</h1>
-<p class="subtitle lead">Data Analyst | MSc Data Science Student @ University of Leicester</p>
+<p class="subtitle lead">Data Analyst | SQL • Python • Data Engineering | MSc Data Science</p>
 </div>
 
 
@@ -95,30 +128,43 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="professional-profile" class="level2">
 <h2 class="anchored" data-anchor-id="professional-profile">Professional Profile</h2>
-<p>Data Analyst with 5+ years of experience building the backbone of enterprise data systems through automated pipelines and complex SQL workflows. Currently pursuing an MSc in Data Science, I am evolving my expertise to include statistical computing in R and Python, Exploratory Data Analysis (EDA), and Machine Learning. I aim to combine my extensive technical background with predictive modeling to turn historical data into future-ready insights</p>
+<p>Data Analyst with 5+ years of experience in SQL, data pipelines, and analytics. Currently pursuing an MSc in Data Science, with skills in Python, R, EDA, and machine learning.</p>
+<p>Seeking Data Analyst or Data Scientist roles, with availability for Summer 2026 internships and full-time opportunities from January 2027.</p>
 <hr>
 </section>
 <section id="technical-expertise" class="level2">
 <h2 class="anchored" data-anchor-id="technical-expertise">Technical Expertise</h2>
-<section id="cloud-sql-analytics-engineering" class="level3">
-<h3 class="anchored" data-anchor-id="cloud-sql-analytics-engineering">Cloud, SQL &amp; Analytics Engineering</h3>
+<section id="cloud-sql-data-engineering" class="level3">
+<h3 class="anchored" data-anchor-id="cloud-sql-data-engineering">Cloud, SQL &amp; Data Engineering</h3>
 <ul>
-<li><strong>SQL &amp; Warehousing</strong>: Snowflake (Snowpipe, Streams, Tasks), PostgreSQL, SQL Server</li>
-<li><strong>Data Modeling</strong>: SCD Type-2, Stored Procedures, Layered Data Architectures (Bronze/Silver/Gold)</li>
+<li>Snowflake (Snowpark, Dynamic Tables), PostgreSQL<br>
+</li>
+<li>ETL/ELT Pipelines, Data Transformation</li>
+<li>Data Modeling: SCD Type-2, Stored Procedures</li>
 </ul>
 </section>
-<section id="data-science-statistical-computing" class="level3">
-<h3 class="anchored" data-anchor-id="data-science-statistical-computing">Data Science &amp; Statistical Computing</h3>
+<section id="data-analysis-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="data-analysis-statistics">Data Analysis &amp; Statistics</h3>
 <ul>
-<li><strong>Python Stack</strong>: Pandas, Scikit-learn, Seaborn (Automation, Data Validation, ML)</li>
-<li><strong>R Stack</strong>: Tidyverse (Dplyr, ggplot2), Quarto, Markdown</li>
-<li><strong>Statistics</strong>: Hypothesis Testing (T-tests, ANOVA), Linear Regression, Probability &amp; Distribution Analysis</li>
+<li>Python (Pandas, NumPy, Seaborn, SciPy, pingouin) – EDA, Data Cleaning, Automation<br>
+</li>
+<li>R (dplyr, ggplot2), Quarto<br>
+</li>
+<li>Hypothesis Testing (T-test, ANOVA)</li>
 </ul>
 </section>
-<section id="bi-visualization" class="level3">
-<h3 class="anchored" data-anchor-id="bi-visualization">BI &amp; Visualization</h3>
+<section id="machine-learning" class="level3">
+<h3 class="anchored" data-anchor-id="machine-learning">Machine Learning</h3>
 <ul>
-<li><strong>Tools</strong>: Power BI, Tableau, Excel (Xlookup, Power Query), GitHub</li>
+<li>Random Forest (Classification), Linear Regression</li>
+</ul>
+</section>
+<section id="bi-tools" class="level3">
+<h3 class="anchored" data-anchor-id="bi-tools">BI &amp; Tools</h3>
+<ul>
+<li>Power BI, Tableau<br>
+</li>
+<li>Excel (XLOOKUP, Power Query), GitHub</li>
 </ul>
 <hr>
 </section>
@@ -134,6 +180,16 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Hypothesis Testing &amp; Statistical Validation:</strong> Validated situational factors by rejecting the Null Hypothesis (H₀) with p&lt;0.05. Confirmed that variables like Speed are statistically significant predictors of Collision Severity.</li>
 <li><strong>Temporal &amp; Distribution Analysis:</strong> Identified a Bi-modal distribution with a distinct Left Skew. Analysis shows a morning peak at 08:00 and a primary concentration between 15:00 and 17:00.</li>
 <li><strong>Volume vs.&nbsp;Severity Insights:</strong> Found that 30 mph zones drive Collision Severity through sheer volume, while 60 mph zones drive severity through impact force, despite fewer total incidents.</li>
+</ul>
+</section>
+<section id="breast-cancer-trend-analysis-australia" class="level3">
+<h3 class="anchored" data-anchor-id="breast-cancer-trend-analysis-australia">Breast Cancer Trend Analysis (Australia)</h3>
+<p><a href="https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-/blob/main/notebooks/breast_cancer_analysis.ipynb"><em>GitHub</em></a> | <a href="https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-/raw/main/reports/breast_cancer_analysis.pdf"><em>PDF Report</em></a></p>
+<p>A Functional Data Analysis (FDA) of 81 years of age-specific mortality rates (1921–2001) to identify long-term biological trends and medical progress.</p>
+<ul>
+<li><strong>Functional Data Transformation:</strong> Converted 81 annual discrete mortality datasets into continuous functional objects using a 4th-order (Cubic) B-spline basis.</li>
+<li><strong>Hierarchical GCV Optimization:</strong> Executed a three-stage “Goldilocks” search (Broad → Reduced → Zoomed) to identify the optimal smoothing parameter at <span class="math inline">\(\log_{10}(\lambda) = 1\)</span>.</li>
+<li><strong>Noise Reduction &amp; Signal Extraction:</strong> Utilized a harmonic acceleration penalty to filter out random annual “noise,” revealing underlying shifts in mortality across age groups.</li>
 </ul>
 <hr>
 </section>

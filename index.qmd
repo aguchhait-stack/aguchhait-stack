@@ -1,6 +1,6 @@
 ---
 title: "Arijit Guchhait"
-subtitle: "Data Analyst | MSc Data Science Student @ University of Leicester"
+subtitle: "Data Analyst | SQL • Python • Data Engineering | MSc Data Science"
 image: "profile.jpg"
 format:
   html:
@@ -29,23 +29,30 @@ format:
 
 ## Professional Profile
 
-Data Analyst with 5+ years of experience building the backbone of enterprise data systems through automated pipelines and complex SQL workflows. Currently pursuing an MSc in Data Science, I am evolving my expertise to include statistical computing in R and Python, Exploratory Data Analysis (EDA), and Machine Learning. I aim to combine my extensive technical background with predictive modeling to turn historical data into future-ready insights
+Data Analyst with 5+ years of experience in SQL, data pipelines, and analytics. Currently pursuing an MSc in Data Science, with skills in Python, R, EDA, and machine learning. 
+
+Seeking Data Analyst or Data Scientist roles, with availability for Summer 2026 internships and full-time opportunities from January 2027.
 
 ---
 
 ## Technical Expertise
 
-### Cloud, SQL & Analytics Engineering
-- **SQL & Warehousing**: Snowflake (Snowpipe, Streams, Tasks), PostgreSQL, SQL Server
-- **Data Modeling**: SCD Type-2, Stored Procedures, Layered Data Architectures (Bronze/Silver/Gold)
+### Cloud, SQL & Data Engineering
+- Snowflake (Snowpark, Dynamic Tables), PostgreSQL  
+- ETL/ELT Pipelines, Data Transformation 
+- Data Modeling: SCD Type-2, Stored Procedures  
 
-### Data Science & Statistical Computing
-- **Python Stack**: Pandas, Scikit-learn, Seaborn (Automation, Data Validation, ML)
-- **R Stack**: Tidyverse (Dplyr, ggplot2), Quarto, Markdown
-- **Statistics**: Hypothesis Testing (T-tests, ANOVA), Linear Regression, Probability & Distribution Analysis
+### Data Analysis & Statistics
+- Python (Pandas, NumPy, Seaborn, SciPy, pingouin) – EDA, Data Cleaning, Automation  
+- R (dplyr, ggplot2), Quarto  
+- Hypothesis Testing (T-test, ANOVA) 
 
-### BI & Visualization
-- **Tools**: Power BI, Tableau, Excel (Xlookup, Power Query), GitHub
+### Machine Learning
+- Random Forest (Classification), Linear Regression  
+
+### BI & Tools
+- Power BI, Tableau  
+- Excel (XLOOKUP, Power Query), GitHub  
 
 ---
 
@@ -60,6 +67,15 @@ A comprehensive statistical analysis of over 50,000 road collision records to id
 - **Hypothesis Testing & Statistical Validation:** Validated situational factors by rejecting the Null Hypothesis (H₀) with p<0.05. Confirmed that variables like Speed are statistically significant predictors of Collision Severity.
 - **Temporal & Distribution Analysis:** Identified a Bi-modal distribution with a distinct Left Skew. Analysis shows a morning peak at 08:00 and a primary concentration between 15:00 and 17:00.
 - **Volume vs. Severity Insights:** Found that 30 mph zones drive Collision Severity through sheer volume, while 60 mph zones drive severity through impact force, despite fewer total incidents.
+
+### Breast Cancer Trend Analysis (Australia)
+[*GitHub*](https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-/blob/main/notebooks/breast_cancer_analysis.ipynb) | [*PDF Report*](https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-/raw/main/reports/breast_cancer_analysis.pdf)
+
+A Functional Data Analysis (FDA) of 81 years of age-specific mortality rates (1921–2001) to identify long-term biological trends and medical progress.
+
+- **Functional Data Transformation:** Converted 81 annual discrete mortality datasets into continuous functional objects using a 4th-order (Cubic) B-spline basis.
+- **Hierarchical GCV Optimization:** Executed a three-stage "Goldilocks" search (Broad → Reduced → Zoomed) to identify the optimal smoothing parameter at $\log_{10}(\lambda) = 1$.
+- **Noise Reduction & Signal Extraction:** Utilized a harmonic acceleration penalty to filter out random annual "noise," revealing underlying shifts in mortality across age groups.
 
 ---
 
