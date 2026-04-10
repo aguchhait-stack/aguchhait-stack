@@ -77,24 +77,12 @@ A Functional Data Analysis (FDA) of 81 years of age-specific mortality rates (19
 - **Hierarchical GCV Optimization:** Executed a three-stage "Goldilocks" search (Broad → Reduced → Zoomed) to identify the optimal smoothing parameter at $\log_{10}(\lambda) = 1$.
 - **Noise Reduction & Signal Extraction:** Utilized a harmonic acceleration penalty to filter out random annual "noise," revealing underlying shifts in mortality across age groups.
 
-### New York City Taxi Fare Prediction
-[*GitHub*](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/blob/main/nyc-taxi-fare-prediction.ipynb) | [*PDF Report*](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/raw/main/nyc-taxi-fare-prediction.pdf)
-
-Performed exploratory data analysis and preprocessing on the Kaggle NYC Taxi Fare Prediction dataset to investigate pricing patterns and prepare trip-level data for predictive modeling.
-
-- **Large-Scale Data Sampling & Preparation:** Processed a 1M-row representative sample from a 55M-row transportation dataset to enable local-memory analysis while preserving large-scale distribution patterns.
-- **Data Cleaning & Outlier Detection:** Identified and removed anomalous records including negative fares, invalid passenger counts, and missing coordinate values to improve downstream model reliability.
-- **Temporal Trend Analysis:** Discovered fare increases over time and identified hourly fare variation patterns, including elevated early-morning pricing and afternoon demand peaks.
-- **Feature Engineering:** Derived temporal predictors from pickup timestamps including year, month, and hour to support future regression modeling.
-
 ---
 
-## Professional Experience
+## Industry Track Record
 
-- Built and maintained enterprise ETL/ELT pipelines for regulated healthcare and MedTech environments.
-- Automated large-scale data transformation workflows using Python and SQL, reducing manual processing by up to 80%.
-- Developed scalable cloud-based data solutions using Snowflake, Dynamic Tables, and Snowpark.
-- Optimized SQL transformations and backend views to improve BI dashboard and reporting performance.
+- **Enterprise ELT**: Designed, implemented, and maintained robust data pipelines within highly regulated healthcare environments, ensuring data integrity and compliance
+- **Systems Strategy**: Proven expertise in structuring raw data into optimized layers (e.g., Bronze/Silver/Gold) to power downstream BI, reporting, and machine learning applications
 
 ---
 
