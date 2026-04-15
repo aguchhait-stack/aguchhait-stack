@@ -28,11 +28,12 @@
 
 ### 🚀 Featured Projects
 
-**[UK Road Collision Analysis](https://github.com/aguchhait-stack/UK_road_safety)**  
-Statistical analysis of 50k+ records using Python & R to identify key drivers of accident severity.
+**[NYC Taxi Fare Prediction](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction)** High-performance ML pipeline achieving a **4.60 RMSE** through spatial bounding, coordinate-grid mapping, and outlier engineering on a 7GB dataset.
 
-**[Breast Cancer Trend Analysis (Australia)](https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-)**  
-Functional Data Analysis of long-term mortality trends using statistical modeling and smoothing techniques.
+**[UK Road Collision Analysis](https://github.com/aguchhait-stack/UK_road_safety)** Statistical analysis of 50k+ records using Python & R to identify key drivers of accident severity.
+
+**[Breast Cancer Trend Analysis (Australia)](https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-)** Functional Data Analysis of long-term mortality trends using statistical modeling and B-spline smoothing techniques.
+
 
 ---
 

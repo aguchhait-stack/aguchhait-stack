@@ -199,9 +199,9 @@ window.Quarto = {
 <p>Performed exploratory data analysis and preprocessing on the Kaggle NYC Taxi Fare Prediction dataset to investigate pricing patterns and prepare trip-level data for predictive modeling.</p>
 <ul>
 <li><strong>Large-Scale Data Sampling &amp; Preparation:</strong> Processed a 1M-row representative sample from a 55M-row transportation dataset to enable local-memory analysis while preserving large-scale distribution patterns.</li>
-<li><strong>Data Cleaning &amp; Outlier Detection:</strong> Identified and removed anomalous records including negative fares, invalid passenger counts, and missing coordinate values to improve downstream model reliability.</li>
-<li><strong>Temporal Trend Analysis:</strong> Discovered fare increases over time and identified hourly fare variation patterns, including elevated early-morning pricing and afternoon demand peaks.</li>
-<li><strong>Feature Engineering:</strong> Derived temporal predictors from pickup timestamps including year, month, and hour to support future regression modeling.</li>
+<li><strong>Geospatial Outlier Mitigation:</strong> Engineered a precise NYC filter (Staten Island to Yonkers; New Jersey to JFK) to identify and remove <strong>21,799 sensor outliers</strong> and invalid (0,0) coordinate records.</li>
+<li><strong>Haversine Distance Implementation:</strong> Developed a custom function to calculate the <strong>great-circle distance</strong> in kilometers between pickup and dropoff coordinates, establishing the model’s most significant predictor.</li>
+<li><strong>Regression Modeling:</strong> Built and validated a regression pipeline using an 80/20 train-test split, evaluating performance through Root Mean Squared Error (RMSE) to ensure high prediction accuracy.</li>
 </ul>
 <hr>
 </section>

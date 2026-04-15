@@ -83,9 +83,9 @@ A Functional Data Analysis (FDA) of 81 years of age-specific mortality rates (19
 Performed exploratory data analysis and preprocessing on the Kaggle NYC Taxi Fare Prediction dataset to investigate pricing patterns and prepare trip-level data for predictive modeling.
 
 - **Large-Scale Data Sampling & Preparation:** Processed a 1M-row representative sample from a 55M-row transportation dataset to enable local-memory analysis while preserving large-scale distribution patterns.
-- **Data Cleaning & Outlier Detection:** Identified and removed anomalous records including negative fares, invalid passenger counts, and missing coordinate values to improve downstream model reliability.
-- **Temporal Trend Analysis:** Discovered fare increases over time and identified hourly fare variation patterns, including elevated early-morning pricing and afternoon demand peaks.
-- **Feature Engineering:** Derived temporal predictors from pickup timestamps including year, month, and hour to support future regression modeling.
+- **Geospatial Outlier Mitigation:** Engineered a precise NYC filter (Staten Island to Yonkers; New Jersey to JFK) to identify and remove **21,799 sensor outliers** and invalid (0,0) coordinate records.
+- **Haversine Distance Implementation:** Developed a custom function to calculate the **great-circle distance** in kilometers between pickup and dropoff coordinates, establishing the model's most significant predictor.
+- **Regression Modeling:** Built and validated a regression pipeline using an 80/20 train-test split, evaluating performance through Root Mean Squared Error (RMSE) to ensure high prediction accuracy.
 
 ---
 
