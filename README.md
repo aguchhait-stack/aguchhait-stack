@@ -28,7 +28,7 @@
 
 ### 🚀 Featured Projects
 
-**[NYC Taxi Fare Prediction](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction)** ML pipeline using XGBoost to predict taxi fares, achieving **$3.42 RMSE** and **0.87 R²** through distance engineering and airport feature detection on 1M+ trips.
+**[NYC Taxi Fare Prediction](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction)** ML pipeline using XGBoost to predict taxi fares, achieving **$3.38 RMSE** and **0.87 R²** through distance engineering and airport feature detection on 1M+ trips.
 
 **[UK Road Collision Analysis](https://github.com/aguchhait-stack/UK_road_safety)** Statistical analysis of 50k+ records using Python & R to identify key drivers of accident severity.
 
