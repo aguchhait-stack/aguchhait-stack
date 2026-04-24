@@ -58,6 +58,18 @@ Seeking Data Analyst or Data Scientist roles, with availability for Summer 2026 
 
 ## Featured Projects
 
+### New York City Taxi Fare Prediction
+[*GitHub*](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/blob/main/nyc-taxi-fare-prediction.ipynb) | [*PDF Report*](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/raw/main/nyc-taxi-fare-prediction.pdf)
+
+End-to-end ML pipeline predicting NYC taxi fares using XGBoost. Achieved **$3.42 RMSE** and **0.87 R² score**.
+
+- **Data Processing:** Cleaned 1M+ records, removed outliers, and handled invalid fares & passenger counts
+- **Feature Engineering:** Created Haversine distance (primary driver), airport flags (JFK/LGA/EWR), and temporal features
+- **Modeling:** Compared Linear/Ridge Regression vs XGBoost with RandomizedSearchCV (5-fold cross-validation)
+- **Results:** XGBoost outperformed linear models by 19% (RMSE: $3.42 vs $4.23)
+
+**Tech:** Python, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
+
 ### UK Road Collision Analysis
 [*GitHub*](https://github.com/aguchhait-stack/UK_road_safety) | [*PDF Report*](https://github.com/aguchhait-stack/UK_road_safety/raw/main/outputs/Collision.pdf)
 
@@ -76,16 +88,6 @@ A Functional Data Analysis (FDA) of 81 years of age-specific mortality rates (19
 - **Functional Data Transformation:** Converted 81 annual discrete mortality datasets into continuous functional objects using a 4th-order (Cubic) B-spline basis.
 - **Hierarchical GCV Optimization:** Executed a three-stage "Goldilocks" search (Broad → Reduced → Zoomed) to identify the optimal smoothing parameter at $\log_{10}(\lambda) = 1$.
 - **Noise Reduction & Signal Extraction:** Utilized a harmonic acceleration penalty to filter out random annual "noise," revealing underlying shifts in mortality across age groups.
-
-### New York City Taxi Fare Prediction
-[*GitHub*](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/blob/main/nyc-taxi-fare-prediction.ipynb) | [*PDF Report*](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/raw/main/nyc-taxi-fare-prediction.pdf)
-
-Performed exploratory data analysis and preprocessing on the Kaggle NYC Taxi Fare Prediction dataset to investigate pricing patterns and prepare trip-level data for predictive modeling.
-
-- **Large-Scale Data Sampling & Preparation:** Processed a 1M-row representative sample from a 55M-row transportation dataset to enable local-memory analysis while preserving large-scale distribution patterns.
-- **Geospatial Outlier Mitigation:** Engineered a precise NYC filter (Staten Island to Yonkers; New Jersey to JFK) to identify and remove **21,799 sensor outliers** and invalid (0,0) coordinate records.
-- **Haversine Distance Implementation:** Developed a custom function to calculate the **great-circle distance** in kilometers between pickup and dropoff coordinates, establishing the model's most significant predictor.
-- **Regression Modeling:** Built and validated a regression pipeline using an 80/20 train-test split, evaluating performance through Root Mean Squared Error (RMSE) to ensure high prediction accuracy.
 
 ---
 

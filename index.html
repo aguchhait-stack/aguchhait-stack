@@ -89,9 +89,9 @@ window.Quarto = {
   </ul></li>
   <li><a href="#featured-projects" id="toc-featured-projects" class="nav-link" data-scroll-target="#featured-projects">Featured Projects</a>
   <ul class="collapse">
+  <li><a href="#new-york-city-taxi-fare-prediction" id="toc-new-york-city-taxi-fare-prediction" class="nav-link" data-scroll-target="#new-york-city-taxi-fare-prediction">New York City Taxi Fare Prediction</a></li>
   <li><a href="#uk-road-collision-analysis" id="toc-uk-road-collision-analysis" class="nav-link" data-scroll-target="#uk-road-collision-analysis">UK Road Collision Analysis</a></li>
   <li><a href="#breast-cancer-trend-analysis-australia" id="toc-breast-cancer-trend-analysis-australia" class="nav-link" data-scroll-target="#breast-cancer-trend-analysis-australia">Breast Cancer Trend Analysis (Australia)</a></li>
-  <li><a href="#new-york-city-taxi-fare-prediction" id="toc-new-york-city-taxi-fare-prediction" class="nav-link" data-scroll-target="#new-york-city-taxi-fare-prediction">New York City Taxi Fare Prediction</a></li>
   </ul></li>
   <li><a href="#professional-experience" id="toc-professional-experience" class="nav-link" data-scroll-target="#professional-experience">Professional Experience</a></li>
   <li><a href="#interests" id="toc-interests" class="nav-link" data-scroll-target="#interests">Interests</a></li>
@@ -172,6 +172,18 @@ window.Quarto = {
 </section>
 <section id="featured-projects" class="level2">
 <h2 class="anchored" data-anchor-id="featured-projects">Featured Projects</h2>
+<section id="new-york-city-taxi-fare-prediction" class="level3">
+<h3 class="anchored" data-anchor-id="new-york-city-taxi-fare-prediction">New York City Taxi Fare Prediction</h3>
+<p><a href="https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/blob/main/nyc-taxi-fare-prediction.ipynb"><em>GitHub</em></a> | <a href="https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/raw/main/nyc-taxi-fare-prediction.pdf"><em>PDF Report</em></a></p>
+<p>End-to-end ML pipeline predicting NYC taxi fares using XGBoost. Achieved <strong>$3.42 RMSE</strong> and <strong>0.87 R² score</strong>.</p>
+<ul>
+<li><strong>Data Processing:</strong> Cleaned 1M+ records, removed outliers, and handled invalid fares &amp; passenger counts</li>
+<li><strong>Feature Engineering:</strong> Created Haversine distance (primary driver), airport flags (JFK/LGA/EWR), and temporal features</li>
+<li><strong>Modeling:</strong> Compared Linear/Ridge Regression vs XGBoost with RandomizedSearchCV (5-fold cross-validation)</li>
+<li><strong>Results:</strong> XGBoost outperformed linear models by 19% (RMSE: $3.42 vs $4.23)</li>
+</ul>
+<p><strong>Tech:</strong> Python, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn</p>
+</section>
 <section id="uk-road-collision-analysis" class="level3">
 <h3 class="anchored" data-anchor-id="uk-road-collision-analysis">UK Road Collision Analysis</h3>
 <p><a href="https://github.com/aguchhait-stack/UK_road_safety"><em>GitHub</em></a> | <a href="https://github.com/aguchhait-stack/UK_road_safety/raw/main/outputs/Collision.pdf"><em>PDF Report</em></a></p>
@@ -191,17 +203,6 @@ window.Quarto = {
 <li><strong>Functional Data Transformation:</strong> Converted 81 annual discrete mortality datasets into continuous functional objects using a 4th-order (Cubic) B-spline basis.</li>
 <li><strong>Hierarchical GCV Optimization:</strong> Executed a three-stage “Goldilocks” search (Broad → Reduced → Zoomed) to identify the optimal smoothing parameter at <span class="math inline">\(\log_{10}(\lambda) = 1\)</span>.</li>
 <li><strong>Noise Reduction &amp; Signal Extraction:</strong> Utilized a harmonic acceleration penalty to filter out random annual “noise,” revealing underlying shifts in mortality across age groups.</li>
-</ul>
-</section>
-<section id="new-york-city-taxi-fare-prediction" class="level3">
-<h3 class="anchored" data-anchor-id="new-york-city-taxi-fare-prediction">New York City Taxi Fare Prediction</h3>
-<p><a href="https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/blob/main/nyc-taxi-fare-prediction.ipynb"><em>GitHub</em></a> | <a href="https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/raw/main/nyc-taxi-fare-prediction.pdf"><em>PDF Report</em></a></p>
-<p>Performed exploratory data analysis and preprocessing on the Kaggle NYC Taxi Fare Prediction dataset to investigate pricing patterns and prepare trip-level data for predictive modeling.</p>
-<ul>
-<li><strong>Large-Scale Data Sampling &amp; Preparation:</strong> Processed a 1M-row representative sample from a 55M-row transportation dataset to enable local-memory analysis while preserving large-scale distribution patterns.</li>
-<li><strong>Geospatial Outlier Mitigation:</strong> Engineered a precise NYC filter (Staten Island to Yonkers; New Jersey to JFK) to identify and remove <strong>21,799 sensor outliers</strong> and invalid (0,0) coordinate records.</li>
-<li><strong>Haversine Distance Implementation:</strong> Developed a custom function to calculate the <strong>great-circle distance</strong> in kilometers between pickup and dropoff coordinates, establishing the model’s most significant predictor.</li>
-<li><strong>Regression Modeling:</strong> Built and validated a regression pipeline using an 80/20 train-test split, evaluating performance through Root Mean Squared Error (RMSE) to ensure high prediction accuracy.</li>
 </ul>
 <hr>
 </section>
