@@ -1,5 +1,5 @@
 # Arijit Guchhait
-**Data Scientist • ML Engineer | Python • SQL • ML | MSc Data Science**
+**Data Scientist • Data Analyst | Python • SQL • ML | MSc Data Science**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://aguchhait-stack.github.io/aguchhait-stack/) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guchhaitarijit/)
