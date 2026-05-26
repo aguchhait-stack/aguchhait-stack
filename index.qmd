@@ -1,6 +1,6 @@
 ---
 title: "Arijit Guchhait"
-subtitle: "Data Analyst | SQL • Python • Data Engineering | MSc Data Science"
+subtitle: "Data Scientist • Data Analyst | Python • SQL • ML | MSc Data Science"
 image: "profile.jpg"
 format:
   html:
@@ -37,26 +37,42 @@ Seeking Data Analyst or Data Scientist roles, with availability for Summer 2026 
 
 ## Technical Expertise
 
-### Cloud, SQL & Data Engineering
-- Snowflake (Snowpark, Dynamic Tables), PostgreSQL  
-- ETL/ELT Pipelines, Data Transformation 
-- Data Modeling: SCD Type-2, Stored Procedures  
+### Machine Learning & Modeling
+- XGBoost • Scikit-learn • K-Means Clustering • Random Forest
+- Cross-Validation • Feature Engineering
+- RFM Analysis • Cohort Analysis
 
-### Data Analysis & Statistics
-- Python (Pandas, NumPy, Seaborn, SciPy, pingouin) – EDA, Data Cleaning, Automation  
-- R (dplyr, ggplot2), Quarto  
-- Hypothesis Testing (T-test, ANOVA) 
+### Data Science & Analytics
+- Python (Pandas, NumPy, SciPy, Seaborn, Matplotlib)
+- R (dplyr, ggplot2, Quarto)
+- Statistical Testing (T-test, ANOVA) • EDA
 
-### Machine Learning
-- Random Forest (Classification), Linear Regression  
+### SQL & Data Engineering
+- PostgreSQL • Snowflake (Snowpark, Dynamic Tables)
+- ETL/ELT Pipelines • Window Functions • Stored Procedures
 
-### BI & Tools
-- Power BI, Tableau  
-- Excel (XLOOKUP, Power Query), GitHub  
+### Visualization & BI
+- Power BI (DAX, RLS) • Tableau • Matplotlib • Seaborn
+
+### Tools & Practices
+- Git • GitHub • Jupyter • VS Code
 
 ---
 
 ## Featured Projects
+
+### Online Retail — Customer Segmentation
+[*GitHub*](https://github.com/aguchhait-stack/Online_Retail_II/blob/main/online_retail_uci.ipynb) | [*PDF Report*](https://github.com/aguchhait-stack/Online_Retail_II/blob/main/online_retail_uci.pdf)
+
+RFM analysis + K-Means clustering on 1M+ transactions to identify high-value customer segments.
+
+- **Data Processing:** Cleaned 1M+ transactions through ETL pipeline, removing 26.98% anomalous records.
+- **Clustering Validation:** Used Elbow method and Silhouette score (0.36) to validate optimal k=4 clusters.
+- **Business Impact:** Identified Champions segment at 260% above-average Monetary value — recommended VIP loyalty programme.
+- **Retention Analysis:** Built 24-month cohort matrix revealing 78.83% Month 1 churn — proposed 30-day re-engagement window.
+
+**Tech:** Python, Pandas, Scikit-learn, K-Means, Matplotlib, Seaborn
+
 
 ### New York City Taxi Fare Prediction
 [*GitHub*](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/blob/main/nyc-taxi-fare-prediction.ipynb) | [*PDF Report*](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/raw/main/nyc-taxi-fare-prediction.pdf)
@@ -88,7 +104,6 @@ A Functional Data Analysis (FDA) of 81 years of age-specific mortality rates (19
 - **Functional Data Transformation:** Converted 81 annual discrete mortality datasets into continuous functional objects using a 4th-order (Cubic) B-spline basis.
 - **Hierarchical GCV Optimization:** Executed a three-stage "Goldilocks" search (Broad → Reduced → Zoomed) to identify the optimal smoothing parameter at $\log_{10}(\lambda) = 1$.
 - **Noise Reduction & Signal Extraction:** Utilized a harmonic acceleration penalty to filter out random annual "noise," revealing underlying shifts in mortality across age groups.
-
 ---
 
 ## Professional Experience
