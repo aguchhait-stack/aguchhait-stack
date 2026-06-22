@@ -8,113 +8,26 @@ format:
       - cosmo
       - custom.scss
     css: styles.css
-    toc: true
-    toc-location: left
+    toc: false
     page-layout: full
 ---
 
-::: {.column-page}
+::: {.column-page .text-center style="margin-top: 3em;"}
 
-![](profile.jpg){width="8em" fig-alt="Arijit Guchhait" class="round-image"}
+![](profile.jpg){width="12em" fig-alt="Arijit Guchhait" style="border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.15);"}
 
-[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guchhaitarijit/)
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aguchhait-stack)
-[![](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/ariguchhait/)
-[![](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ari.guchhait@gmail.com)
-[![](https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+447404591725)
+## Redirecting to my updated profile...
+
+To save double-work, my latest projects, enterprise experience, and technical portfolio are now maintained directly on my GitHub profile. 
+
+If you are not redirected automatically within a few seconds, please click the link below:
+
+### [👉 View My Live Portfolio & Profile](https://github.com/aguchhait-stack)
 
 :::
 
----
-
-## Professional Profile
-
-Data Analyst with 5+ years of experience in SQL, data pipelines, and analytics. Currently pursuing an MSc in Data Science, with skills in Python, R, EDA, and machine learning. 
-
-Seeking Data Analyst or Data Scientist roles, with availability for Summer 2026 internships and full-time opportunities from January 2027.
-
----
-
-## Technical Expertise
-
-### Machine Learning & Modeling
-- XGBoost • Scikit-learn • K-Means Clustering • Random Forest
-- Cross-Validation • Feature Engineering
-- RFM Analysis • Cohort Analysis
-
-### Data Science & Analytics
-- Python (Pandas, NumPy, SciPy, Seaborn, Matplotlib)
-- R (dplyr, ggplot2, Quarto)
-- Statistical Testing (T-test, ANOVA) • EDA
-
-### SQL & Data Engineering
-- PostgreSQL • Snowflake (Snowpark, Dynamic Tables)
-- ETL/ELT Pipelines • Window Functions • Stored Procedures
-
-### Visualization & BI
-- Power BI (DAX, RLS) • Tableau • Matplotlib • Seaborn
-
-### Tools & Practices
-- Git • GitHub • Jupyter • VS Code
-
----
-
-## Featured Projects
-
-### Online Retail — Customer Segmentation
-[*GitHub*](https://github.com/aguchhait-stack/Online_Retail_II/blob/main/online_retail_uci.ipynb) | [*PDF Report*](https://github.com/aguchhait-stack/Online_Retail_II/blob/main/online_retail_uci.pdf)
-
-RFM analysis + K-Means clustering on 1M+ transactions to identify high-value customer segments.
-
-- **Data Processing:** Cleaned 1M+ transactions through ETL pipeline, removing 26.98% anomalous records.
-- **Clustering Validation:** Used Elbow method and Silhouette score (0.36) to validate optimal k=4 clusters.
-- **Business Impact:** Identified Champions segment at 260% above-average Monetary value — recommended VIP loyalty programme.
-- **Retention Analysis:** Built 24-month cohort matrix revealing 78.83% Month 1 churn — proposed 30-day re-engagement window.
-
-**Tech:** Python, Pandas, Scikit-learn, K-Means, Matplotlib, Seaborn
-
-
-### New York City Taxi Fare Prediction
-[*GitHub*](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/blob/main/nyc-taxi-fare-prediction.ipynb) | [*PDF Report*](https://github.com/aguchhait-stack/nyc-taxi-fare-prediction/raw/main/nyc-taxi-fare-prediction.pdf)
-
-End-to-end ML pipeline predicting NYC taxi fares using XGBoost. Achieved **$3.42 RMSE** and **0.87 R² score**.
-
-- **Data Processing:** Cleaned 1M+ records, removed outliers, and handled invalid fares & passenger counts
-- **Feature Engineering:** Created Haversine distance (primary driver), airport flags (JFK/LGA/EWR), and temporal features
-- **Modeling:** Compared Linear/Ridge Regression vs XGBoost with RandomizedSearchCV (5-fold cross-validation)
-- **Results:** XGBoost outperformed linear models by 19% (RMSE: $3.42 vs $4.23)
-
-**Tech:** Python, Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
-
-### UK Road Collision Analysis
-[*GitHub*](https://github.com/aguchhait-stack/UK_road_safety) | [*PDF Report*](https://github.com/aguchhait-stack/UK_road_safety/raw/main/outputs/Collision.pdf)
-
-A comprehensive statistical analysis of over 50,000 road collision records to identify key environmental factors influencing accident severity.
-
-- **Predictive Modeling of Collision Severity:** Developed a Random Forest classifier achieving 74% accuracy. The model identifies relationships between Hour, Day of Week, and Speed to distinguish high-volume "Slight" incidents from high-severity crashes.
-- **Hypothesis Testing & Statistical Validation:** Validated situational factors by rejecting the Null Hypothesis (H₀) with p<0.05. Confirmed that variables like Speed are statistically significant predictors of Collision Severity.
-- **Temporal & Distribution Analysis:** Identified a Bi-modal distribution with a distinct Left Skew. Analysis shows a morning peak at 08:00 and a primary concentration between 15:00 and 17:00.
-- **Volume vs. Severity Insights:** Found that 30 mph zones drive Collision Severity through sheer volume, while 60 mph zones drive severity through impact force, despite fewer total incidents.
-
-### Breast Cancer Trend Analysis (Australia)
-[*GitHub*](https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-/blob/main/notebooks/breast_cancer_analysis.ipynb) | [*PDF Report*](https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-/raw/main/reports/breast_cancer_analysis.pdf)
-
-A Functional Data Analysis (FDA) of 81 years of age-specific mortality rates (1921–2001) to identify long-term biological trends and medical progress.
-
-- **Functional Data Transformation:** Converted 81 annual discrete mortality datasets into continuous functional objects using a 4th-order (Cubic) B-spline basis.
-- **Hierarchical GCV Optimization:** Executed a three-stage "Goldilocks" search (Broad → Reduced → Zoomed) to identify the optimal smoothing parameter at $\log_{10}(\lambda) = 1$.
-- **Noise Reduction & Signal Extraction:** Utilized a harmonic acceleration penalty to filter out random annual "noise," revealing underlying shifts in mortality across age groups.
----
-
-## Professional Experience
-
-- Built and maintained enterprise ETL/ELT pipelines for regulated healthcare and MedTech environments.
-- Automated large-scale data transformation workflows using Python and SQL, reducing manual processing by up to 80%.
-- Developed scalable cloud-based data solutions using Snowflake, Dynamic Tables, and Snowpark.
-- Optimized SQL transformations and backend views to improve BI dashboard and reporting performance.
-
----
-
-## Interests
-
-Beyond data, I'm passionate about **traveling** and **skydiving** — seeking new perspectives both on the ground and from 15,000 feet.
+<script>
+  setTimeout(function() {
+    window.location.href = "https://github.com/aguchhait-stack";
+  }, 500);
+</script>
