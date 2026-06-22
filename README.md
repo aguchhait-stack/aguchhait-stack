@@ -1,10 +1,6 @@
 # Arijit Guchhait
-<<<<<<< HEAD
 
 **Data Scientist • Data Analyst | Python • SQL • ML | MSc Data Science**
-=======
-**Aspiring Data Scientist | Python • SQL • ML | MSc Data Science**
->>>>>>> fc2ff68401a3799de5643b1eab95aa6cb3fbb4fd
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guchhaitarijit/)
 
