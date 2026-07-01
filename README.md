@@ -51,6 +51,14 @@ yfinance | PostgreSQL | Docker | GitHub Actions | Streamlit | Python | SQL
 - Live Streamlit dashboard with MA21 forecast signal
 - Replicated all Python feature engineering in pure SQL (window functions, CTEs)
 
+**[Olist Supply Chain Analytics Hub](https://github.com/aguchhait-stack/olist-supply-chain-analytics.git)**  
+SQLite | Python | Streamlit
+
+- Built end-to-end analytics pipeline joining 8 tables across 96k+ orders
+- **Marketing:** KMeans RFM segmentation revealed 97% of customers are one-time buyers; Repeat Buyers (3%) drive disproportionate revenue
+- **Logistics:** Chi-Square confirmed significant SLA breach variation across 27 states (χ²=1622, p<0.001); interstate deliveries take 2x longer than intrastate (7.2 day gap, Mann-Whitney U)
+- **NLP:** Sentiment analysis of Portuguese reviews (planned)
+
 ---
 
 ### 🎯 Currently Looking For
