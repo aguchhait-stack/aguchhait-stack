@@ -137,7 +137,7 @@ I build **modular ML solutions, data pipelines, and analytics applications** to 
 
 ---
 
-#### **[Breast Cancer Trend Analysis — Australia](https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia)**
+#### **[Breast Cancer Trend Analysis — Australia]([https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia](https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-)**
 
 **R | fda | ggplot2 | Functional Data Analysis | Time-Series**
 
