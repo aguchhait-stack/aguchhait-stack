@@ -115,7 +115,7 @@ I build **modular ML solutions, data pipelines, and analytics applications** to 
 
 ---
 
-#### **[Stock Market Analysis Pipeline](https://github.com/aguchhait-stack/stock-market-pipeline)**
+#### **[Stock Market Analysis Pipeline](https://github.com/aguchhait-stack/stock-forecast-pipeline)**
 
 **Python | yfinance | PostgreSQL | Docker | GitHub Actions | Streamlit**
 
