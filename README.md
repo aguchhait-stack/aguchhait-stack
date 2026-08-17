@@ -126,7 +126,7 @@ I build **modular ML solutions, data pipelines, and analytics applications** to 
 
 ---
 
-#### **[UK Road Safety Analysis — 2025](https://github.com/aguchhait-stack/UK_road_safety)**
+#### **[UK Road Safety Analysis](https://github.com/aguchhait-stack/UK_road_safety)**
 
 **R | Quarto | Random Forest | caret | Statistics | Data Visualization**
 
