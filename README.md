@@ -115,7 +115,7 @@ I build **modular ML solutions, data pipelines, and analytics applications** to 
 
 ---
 
-#### **[Stock Market Analysis Pipeline]([https://github.com/aguchhait-stack/stock-market-pipeline](https://github.com/aguchhait-stack/stock-forecast-pipeline)**
+#### **[Stock Market Analysis Pipeline]([https://github.com/aguchhait-stack/stock-market-pipeline]**
 
 **Python | yfinance | PostgreSQL | Docker | GitHub Actions | Streamlit**
 
@@ -137,7 +137,7 @@ I build **modular ML solutions, data pipelines, and analytics applications** to 
 
 ---
 
-#### **[Breast Cancer Trend Analysis — Australia]([https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia](https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-)**
+#### **[Breast Cancer Trend Analysis — Australia]([https://github.com/aguchhait-stack/Breast-Cancer-Trend-Analysis-Australia-])**
 
 **R | fda | ggplot2 | Functional Data Analysis | Time-Series**
 
