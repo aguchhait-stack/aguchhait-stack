@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Arijit Guchhait
 
-**Data Scientist • Data Analyst | Python • SQL • Machine Learning • R | MSc Data Science**
+**Data Analyst • Data Scientist | Python • SQL • Machine Learning • R | MSc Data Science**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guchhaitarijit/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aguchhait-stack)
@@ -13,45 +13,46 @@
 
 ### 🎓 About Me
 
-Data Scientist with **5+ years of industry experience**, currently completing my **MSc in Data Science** at the University of Leicester.
+Data Analyst with **5+ years of industry experience**, currently completing an **MSc in Data Science** at the University of Leicester.
 
-I build **modular ML solutions, data pipelines, and analytics applications** to solve real business problems across customer analytics, e-commerce, logistics, forecasting and experimentation.
+Experienced in **Python, SQL, machine learning, NLP, statistical analysis and data visualisation**, applying data-driven approaches to business performance, customer analytics, logistics and e-commerce.
 
-🔍 **Open to:** Data Analyst / Data Scientist roles from **February 2027**  
-🎓 **Eligible for:** Industrial placement under current **Student visa conditions** and the **UK Graduate Route**; **no sponsorship required during the Graduate Route period**
+🔍 **Open to:** Data Analyst / Data Scientist roles from **February 2027** across the **UK, Germany and the wider EU**
+
+🎓 **UK Graduate Route eligible** — no sponsorship required during the Graduate Route period
 
 ---
 
 ### 🛠️ Technical Stack
 
-**Machine Learning & Modeling**
-- Scikit-learn • XGBoost • Random Forest • K-Means
-- Feature Engineering • Hyperparameter Optimization • Model Evaluation
-- Classification • Regression
-- RFM Analysis • Cohort Analysis • Time-Series Analysis
-- Functional Data Analysis
-
-**Data Science & Analytics**
-- Python: Pandas • NumPy • SciPy • Matplotlib • Seaborn
+**Programming & Data**
+- Python: Pandas • NumPy • SciPy
+- SQL: PostgreSQL • Snowflake • SQLite
 - R: Tidyverse • ggplot2 • fda
 - Excel: Pivot Tables • XLOOKUP • Power Query
-- EDA • Hypothesis Testing • Correlation Analysis • A/B Testing
+
+**Data Science & Machine Learning**
+- EDA • Feature Engineering • Statistical Analysis • Hypothesis Testing • A/B Testing
+- Scikit-learn • XGBoost • Random Forest • K-Means
+- Classification • Regression • Time-Series Analysis • RFM • Cohort Analysis
 - NLP • TF-IDF • Sentiment Analysis • SHAP
 
-**SQL & Data Engineering**
-- PostgreSQL • Snowflake • SQLite
-- ETL/ELT Pipelines • Window Functions • CTEs
-- Data Validation • Data Aggregation • Data Quality
+**Data Engineering & AI**
+- ETL/ELT Pipelines • Data Validation • Data Quality
+- RAG • Embeddings • Sentence-Transformers • ChromaDB • Gemini
+- Pytest • Docker • GitHub Actions • Logging
 
-**AI & ML Engineering**
-- RAG • Embeddings • Transformers
-- Sentence-Transformers • ChromaDB • Gemini
-- Docker • GitHub Actions • Pytest • Logging
-- Streamlit • Git/GitHub
+**Visualisation**
+- Tableau • Power BI • Streamlit • Matplotlib • Seaborn
 
-**Visualization**
-- Tableau • Power BI • Streamlit
-- Matplotlib • Seaborn • ggplot2
+---
+
+### 🎓 Education
+
+| Degree | Institution | Year |
+|---|---|---|
+| **MSc Data Science** | University of Leicester, UK | Jan 2026 – Jan 2027 |
+| **MS Industrial Engineering** | University of South Florida, USA | Jan 2019 – Jun 2020 |
 
 ---
 
@@ -59,15 +60,14 @@ I build **modular ML solutions, data pipelines, and analytics applications** to 
 
 **J&J MedTech, Boston, USA** | Data Analyst | May 2022 – Mar 2025
 
-- Mapped **75,000 SKUs across 116 countries** using Python and SQL, developing hierarchical matching logic across 5+ ERP systems.
-- Aggregated sales and inventory data to support sales and manufacturing reviews and SKU status decisions.
-- Prepared datasets for Tableau dashboards and achieved **95% reconciliation accuracy** using SQL validation pipelines.
+- Led analysis of sales and brand performance across multiple markets, using KPIs including YoY growth, CAGR and sales trends to identify underperforming products and support portfolio and discontinuation decisions
+- Coordinated with offshore Data Engineers and Tableau developers to prepare analytical datasets and deliver Tableau dashboards with 25+ calculated fields for KPI and performance analysis
+- Developed reusable Python ETL functions for extracting, cleaning and transforming fragmented flat-file datasets, with Pytest-based validation to ensure data quality and reliability, significantly reducing data reconciliation and recurring processing effort
 
 **Abbott, Atlanta, USA** | Data Analyst | Feb 2021 – May 2022
 
-- Developed SQL pipelines and Tableau dashboards to automate recurring analysis and reporting for quality teams.
-- Monitored key metrics and prepared regular and ad-hoc analysis for stakeholders.
-- Analysed complaint narratives using SQL and Excel to identify RCA codes and support root cause analysis.
+- Built and transformed quality datasets with SQL and Python, developing Snowflake views and Python scripts and implementing Dynamic Tables in the Gold layer to deliver refreshed, business-ready data for quality analysis and reporting
+- Developed Tableau dashboards with calculated fields and filters to track quality KPIs, identify potential issues and provide actionable insights for stakeholders
 
 **Levram Lifesciences, India** | Industrial Engineer | Dec 2016 – Jan 2018
 
@@ -128,7 +128,7 @@ I build **modular ML solutions, data pipelines, and analytics applications** to 
 
 #### **[UK Road Safety Analysis](https://github.com/aguchhait-stack/UK_road_safety)**
 
-**R | Quarto | Random Forest | caret | Statistics | Data Visualization**
+**R | Quarto | Random Forest | caret | Statistics | Data Visualisation**
 
 - Built a Random Forest classifier achieving **74% accuracy** for collision severity prediction.
 - Identified temporal patterns, including Friday activity and daily peaks between 15:00–17:00.
@@ -156,23 +156,6 @@ I build **modular ML solutions, data pipelines, and analytics applications** to 
 - Used a chi-square test of independence to analyse conversion rates.
 - Found no statistically significant difference in conversion rate (**p = 0.556**).
 - Recommended re-running the experiment after identifying a randomisation/data-quality concern.
-
----
-
-### 🎓 Education
-
-| Degree | Institution | Year |
-|---|---|---|
-| **MSc Data Science** | University of Leicester, UK | Jan 2026 – Jan 2027 |
-| **MS Industrial Engineering** | University of South Florida, USA | Jan 2019 – Jun 2020 |
-
----
-
-### 🎯 Currently Looking For
-
-- **12-Month Industrial Placements — 2027**
-- **Data Analyst / Data Scientist opportunities from February 2027**
-- Eligible for the **UK Graduate Route**
 
 ---
 
