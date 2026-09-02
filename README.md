@@ -11,6 +11,12 @@
 
 ---
 
+### 📊 LeetCode Progress
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/looser420?theme=dark)
+
+---
+
 ### 🎓 About Me
 
 Data Analyst with **5+ years of industry experience**, currently completing an **MSc in Data Science** at the University of Leicester.
