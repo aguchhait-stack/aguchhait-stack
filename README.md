@@ -6,6 +6,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aguchhait-stack)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ari.guchhait@gmail.com)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://olist-supply-chain-analytics.streamlit.app/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/looser420/)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aguchhait-stack&color=blue)
 
@@ -13,7 +14,7 @@
 
 ### 📊 LeetCode Progress
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/looser420?theme=dark)
+![LeetCode Stats](https://leetcard.jacoblin.cool/looser420?theme=dark&width=400)
 
 ---
 
@@ -24,8 +25,6 @@ Data Analyst with **5+ years of industry experience**, currently completing an *
 Experienced in **Python, SQL, machine learning, NLP, statistical analysis and data visualisation**, applying data-driven approaches to business performance, customer analytics, logistics and e-commerce.
 
 🔍 **Open to:** Data Analyst / Data Scientist roles from **February 2027** across the **UK, Germany and the wider EU**
-
-🎓 **UK Graduate Route eligible** — no sponsorship required during the Graduate Route period
 
 ---
 
@@ -129,6 +128,15 @@ Experienced in **Python, SQL, machine learning, NLP, statistical analysis and da
 - Containerised the pipeline with Docker and automated daily updates through GitHub Actions.
 - Developed an interactive Streamlit dashboard for market and volatility analysis.
 - Reproduced Python feature engineering in SQL using window functions and CTEs.
+
+---
+
+#### **[SQL & Python Interview Prep](https://github.com/aguchhait-stack/sql-python-interview-prep)**
+
+**Python | Pandas | SQL | Tableau | Jupyter**
+
+- Case study: **Airbnb Dublin — Demand-Supply Gap Analysis** to help the city manager boost hosts.
+- Analyzed guest search behavior and host acceptance patterns using Pandas EDA and Matplotlib.
 
 ---
 
