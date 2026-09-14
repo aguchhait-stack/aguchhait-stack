@@ -6,7 +6,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aguchhait-stack)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ari.guchhait@gmail.com)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://olist-supply-chain-analytics.streamlit.app/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/looser420/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/aguchhait09/)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aguchhait-stack&color=blueviolet) 
 
