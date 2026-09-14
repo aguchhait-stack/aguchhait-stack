@@ -14,7 +14,7 @@
 
 ### 📊 LeetCode Progress
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/looser420?theme=dark&width=400)
+![LeetCode Stats](https://leetcard.jacoblin.cool/aguchhait09?theme=dark&width=400)
 
 ---
 
