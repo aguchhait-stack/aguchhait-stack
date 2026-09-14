@@ -14,7 +14,7 @@
 
 ### 📊 LeetCode Progress
 
-<img src="https://leetcode-stats.vercel.app/api?username=aguchhait09&theme=dark" width="400" />
+<img src="https://leetcard.jacoblin.cool/aguchhait09?theme=dark&width=400" width="400" />
 
 ---
 
