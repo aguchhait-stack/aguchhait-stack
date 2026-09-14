@@ -8,7 +8,7 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://olist-supply-chain-analytics.streamlit.app/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/looser420/)
 
-![Profile Views](https://komarev.com/ghpvc/?username=aguchhait-stack&color=blue)
+![Profile Views](https://komarev.com/ghpvc/?username=aguchhait-stack&color=blueviolet) 
 
 ---
 
